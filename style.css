@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: VT323;
+    src: url('../../assets/VT323-Regular.ttf');
+}
+
+.snake {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}   
+
+.snake canvas {
+    width: 400px;
+    height: 425px;
+    font-family: 'VT323', monospace;
+}
